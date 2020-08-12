@@ -1,12 +1,5 @@
 {
-	"auth": {
-		"grahama614c95d": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation",
-			"dependsOn": [],
-			"customAuth": false
-		}
-	},
+	"auth": {},
 	"api": {
 		"notesapp": {
 			"service": "AppSync",

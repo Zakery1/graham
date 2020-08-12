@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 import { listNotes } from "./graphql/queries";
 import {
   createNote as createNoteMutation,
@@ -91,9 +90,8 @@ function App() {
           </div>
         ))}
       </div>
-      <AmplifySignOut />
     </div>
   );
 }
 
-export default withAuthenticator(App);
+export default App;

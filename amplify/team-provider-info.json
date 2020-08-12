@@ -10,11 +10,6 @@
             "StackName": "amplify-graham-prod-213522",
             "StackId": "arn:aws:cloudformation:us-west-2:194414547257:stack/amplify-graham-prod-213522/3d589d90-dc55-11ea-925c-029aad44375d",
             "AmplifyAppId": "d31lyeeqx60noc"
-        },
-        "categories": {
-            "auth": {
-                "grahama614c95d": {}
-            }
         }
     }
 }
